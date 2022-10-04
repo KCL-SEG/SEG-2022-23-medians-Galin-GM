@@ -23,5 +23,3 @@ else:
     medianIndex = int((listSize-1) / 2)
     median = sortedNumbers[medianIndex];
     print(median);
-
-print (sortedNumbers);
