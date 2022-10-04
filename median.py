@@ -19,4 +19,4 @@ while True:
     else:
         break
 print(median);
-print(sortedNumbers)
+print(sortedNumbers);
