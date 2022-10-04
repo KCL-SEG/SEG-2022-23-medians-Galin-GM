@@ -11,12 +11,14 @@ while True:
             medianIndexUpper = int(listSize/2);
             medianIndexLower = medianIndexUpper - 1;
             median = (sortedNumbers[medianIndexLower] + sortedNumbers[medianIndexUpper])/2;
+            print(median);
         else:
             medianIndex = int((listSize-1) / 2)
             median = sortedNumbers[medianIndex];
+            print(median);
     except ValueError:
         print("Some input could not be converted to a number!")
     else:
         break
-print (median);
+#print (median);
 print (sortedNumbers);
